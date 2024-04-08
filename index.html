@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Angel Ling - Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>Your Name</h1>
+            <h1>Angel Ling</h1>
             <nav>
                 <ul>
                     <li><a href="#about">About</a></li>
@@ -20,39 +21,45 @@
         </div>
     </header>
 
-    <section id="about">
+    <section id="about" class="py-5">
         <div class="container">
             <h2>About Me</h2>
             <p>Add your introduction or bio here.</p>
         </div>
     </section>
 
-    <section id="portfolio">
+    <section id="portfolio" class="py-5">
         <div class="container">
             <h2>Portfolio</h2>
-            <div class="portfolio-items">
-                <!-- Add your portfolio items here -->
-                <!-- Example: -->
-                <!-- <div class="portfolio-item">
-                    <img src="project1.jpg" alt="Project 1">
-                    <h3>Project 1</h3>
-                    <p>Description of project 1</p>
-                </div> -->
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="project1.jpg" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 1</h5>
+                            <p class="card-text">Description of project 1</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="project2.jpg" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 2</h5>
+                            <p class="card-text">Description of project 2</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more project cards as needed -->
             </div>
         </div>
     </section>
 
-    <section id="contact">
+    <section id="linkedin" class="py-5 bg-light">
         <div class="container">
-            <h2>Contact Me</h2>
-            <p>Add your contact information or a contact form here.</p>
+            <h2>LinkedIn</h2>
+            <p>Add your LinkedIn link here.</p>
         </div>
     </section>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Your Name</p>
-        </div>
-    </footer>
-</body>
-</html>
+    <footer class="py-4 bg-
